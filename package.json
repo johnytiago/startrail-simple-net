@@ -1,0 +1,15 @@
+{
+  "name": "startrail-simple-net",
+  "version": "1.0.0",
+  "description": "Bootstraps an js-ipfs network, adds and gets a block. Used to quickly test js-ipfs added features.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "johnytiago",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.0",
+    "ipfsd-ctl": "^0.32.0"
+  }
+}
